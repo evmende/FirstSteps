@@ -13,7 +13,7 @@ print('\v')
 
 #Calculates second job pay
 Answer1=str(input('Would you like to calculate pay for a second job?'))
-if Answer1 in('Yes' ,'yes', 'yea'):
+if Answer1 in ('Yes' ,'yes', 'yea'):
     Pay2=float(input('What is your hourly pay for your second job $'))
     Hours2=float(input('How many hours a week do you work for this job? '))
     Job2= (Pay2 * Hours2) - (Pay2 * Hours2 * .10)
